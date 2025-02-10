@@ -1,0 +1,134 @@
+
+h1{
+    position:relative; 
+    width:204px;
+    height: 41px; 
+    color: #0057FF;
+    left:108px;
+    top:11px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42.19px;
+}
+.line{
+    position:relative;
+    background-color: #ff0000;
+    width:285px;
+    height:12px;
+    border-radius:20px;
+    left:60px;
+    /* top:3px; */
+}
+.you, .player{
+    position: absolute;
+    width: 121px;
+    height: 177px;
+    left:70px;
+    top:125px;
+    background-color: #1263ff;
+    border-radius: 10px;
+}
+.player{
+    height: 175.89px;
+    left:232px;
+    top: 125px;
+    background-color: #ef5f5f;
+    border-radius: 10px;
+}
+ .you img, .player img{
+    position: relative;
+    width:73px;
+    height:86.26px;
+    top:10px;
+    left:26px;
+    border-radius: 25px;
+} 
+.you .x, .container .x{
+    position: relative;
+    width:8.01px;
+    height: 41.31px;
+    background-color: red;
+    rotate: 25deg;
+    top: 25px;
+    left: 55px;
+}
+.you .x2, .container .x2{
+    position: relative;
+    width:8.01px;
+    height: 41.31px;
+    background-color: red;
+    rotate:155deg;
+    top: -18px;
+    left: 55px;
+}
+.you .line, .player .line{
+    width: 77px; 
+    height: 2.24px;
+    background-color: white;
+    left:22px;
+    top:15px;
+}
+.you .name, .player .name{
+    position: relative;
+    color: white;
+    left:48px;
+    top:12px; 
+}
+.player img {
+    border-radius: 50px;
+    
+    }
+    .player .name{
+        left:22px;
+    }
+.player .o, .container .o{
+    position: relative;
+    left:37px;
+    top:20px;
+    width:34.41px;
+    height:33px;
+    border: 5px solid #0075ff;
+    border-radius: 50%;
+}
+ .player .line2{
+    position: relative;
+    left:22px;
+    top:15px;
+
+} 
+.container{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    width: 344px;
+    height: 419px;
+    background-image: linear-gradient(#ff0000, #0080f6);
+    top: 382px;
+    left: 42px;
+    border-radius: 20px;
+}
+.container div{
+    position: relative; 
+    top:20px;
+    width: 93px;
+    height: 103px;
+    background-color: white;
+    border-radius: 20px;
+}
+ .container .x, .container .x2{
+    width:19.89px;
+    height: 84.59px;
+    top:10px;
+    left: 40px;
+    border-radius: 0px;
+ }
+ .container .x2{
+    top:-73px;
+ }
+ .container .o{
+    width:56px;
+    height: 52px;
+    left: 15px;
+ }
