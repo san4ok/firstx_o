@@ -1,102 +1,140 @@
 
+*{
+    background-color: lightgray;
+}
+
+.screen{
+    position: relative;
+    width:390px;
+    height:844px;
+    background-color: white;
+    left:677px;
+    border-radius:20px;
+}
 h1{
     position:relative; 
+    background-color: white;
     width:204px;
     height: 41px; 
     color: #0057FF;
-    left:108px;
-    top:11px;
+    left:100px;
+    top:19px;
     font-family: 'Roboto';
     font-size: 36px;
     font-weight: 600;
     line-height: 42.19px;
 }
 .line{
-    position:relative;
+    position:absolute;
     background-color: #ff0000;
     width:285px;
     height:12px;
     border-radius:20px;
-    left:60px;
-    /* top:3px; */
+    left:52px;
+    top:71px; 
 }
-.you, .player{
+.you{
     position: absolute;
     width: 121px;
     height: 177px;
-    left:70px;
-    top:125px;
+    left:54px;
+    top:117px;
     background-color: #1263ff;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .player{
+    position: absolute;
+    width: 121px;
     height: 175.89px;
-    left:232px;
-    top: 125px;
+    left:216px;
+    top: 117px;
     background-color: #ef5f5f;
-    border-radius: 10px;
+    border-radius: 15px;
 }
- .you img, .player img{
-    position: relative;
+ .you img{
+    position: absolute;
     width:73px;
     height:86.26px;
-    top:10px;
+    top:10.32px;
     left:26px;
-    border-radius: 25px;
+    border-radius: 268.5px;
 } 
-.you .x, .container .x{
-    position: relative;
-    width:8.01px;
-    height: 41.31px;
-    background-color: red;
-    rotate: 25deg;
-    top: 25px;
-    left: 55px;
+.player img{
+    position: absolute;
+    width: 88px;
+    height: 90px;
+    top:8px;
+    left: 23px;
+    border-radius: 139.5px;
 }
-.you .x2, .container .x2{
+.you .name{
     position: relative;
-    width:8.01px;
-    height: 41.31px;
-    background-color: red;
-    rotate:155deg;
-    top: -18px;
-    left: 55px;
+    width: 28px;
+    height: 24.65px;
+    background-color: #1263ff;
+    color: white;
+    left:48px;
+    top:103.3px; 
 }
-.you .line, .player .line{
+.player .name{
+    position: relative;
+    width: 78px;
+    height: 20px;
+    color: white;
+    background-color: #ef5f5f;
+    top: 102px;
+    left: 27px;
+}
+.you .name, .player .name{
+    font-family: 'Roboto';
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.you .line{
     width: 77px; 
     height: 2.24px;
     background-color: white;
     left:22px;
-    top:15px;
+    top:125.95px;
 }
-.you .name, .player .name{
-    position: relative;
-    color: white;
-    left:48px;
-    top:12px; 
+.player .line{
+    width: 77px; 
+    height: 2.23px;
+    background-color: white;
+    left:28px;
+    top:127.13px;
 }
-.player img {
-    border-radius: 50px;
-    
-    }
-    .player .name{
-        left:22px;
-    }
-.player .o, .container .o{
-    position: relative;
-    left:37px;
-    top:20px;
-    width:34.41px;
-    height:33px;
+
+.you .x{
+    position: absolute;
+    width:8.01px;
+    height: 41.31px;
+    background-color: red;
+    rotate: 148deg;
+    top: 133px;
+    left: 58.5px;
+}
+.you .x2{
+    position: absolute;
+    width:8.01px;
+    height: 41.02px;
+    background-color: red;
+    rotate: 28deg;
+    top: 134.2px;
+    left: 56px;
+}
+
+.player .o{
+    position: absolute;
+    background-color: #ef5f5f;
+    left:47px;
+    top:133px;
+    width:30.96px;
+    height:30.96px;
     border: 5px solid #0075ff;
     border-radius: 50%;
 }
- .player .line2{
-    position: relative;
-    left:22px;
-    top:15px;
-
-} 
 .container{
     position: absolute;
     display: grid;
@@ -106,29 +144,40 @@ h1{
     height: 419px;
     background-image: linear-gradient(#ff0000, #0080f6);
     top: 382px;
-    left: 42px;
+    left: 23px;
     border-radius: 20px;
+    box-shadow: 0 4px 4px 0;
 }
 .container div{
     position: relative; 
-    top:20px;
+    top: 22px;
     width: 93px;
     height: 103px;
     background-color: white;
     border-radius: 20px;
 }
- .container .x, .container .x2{
+ .container .x{
     width:19.89px;
     height: 84.59px;
-    top:10px;
-    left: 40px;
-    border-radius: 0px;
+    top:8px;
+    left: 37px;
+    border-radius: 0px; 
+    background-color: #ff0000; 
+    rotate: 35deg;
  }
  .container .x2{
-    top:-73px;
+    background-color: #ff0000;
+    width:20.32px;
+    height: 81.14px;
+    top:-72px;
+    left: 35px;
+    border-radius: 0px;
+    rotate: 150deg;
  }
  .container .o{
-    width:56px;
-    height: 52px;
-    left: 15px;
+    width:61px;
+    height: 57px;
+    left: 11px;
+    border: 5px solid #0057FF;
+    border-radius: 50%;
  }
